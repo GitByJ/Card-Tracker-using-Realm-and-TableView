@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1026CFDC2093376500C429FA /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1026CFDB2093376500C429FA /* History.swift */; };
+		10ADC688209065EF00A1BC5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ADC687209065EF00A1BC5A /* AppDelegate.swift */; };
+		10ADC68A209065EF00A1BC5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ADC689209065EF00A1BC5A /* ViewController.swift */; };
+		10ADC68D209065EF00A1BC5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10ADC68B209065EF00A1BC5A /* Main.storyboard */; };
+		10ADC68F209065F000A1BC5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10ADC68E209065F000A1BC5A /* Assets.xcassets */; };
+		10ADC692209065F000A1BC5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10ADC690209065F000A1BC5A /* LaunchScreen.storyboard */; };
+		10ADC69A2090706100A1BC5A /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ADC6992090706100A1BC5A /* HistoryTableViewController.swift */; };
+		10ADC69C2090752600A1BC5A /* Amount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ADC69B2090752600A1BC5A /* Amount.swift */; };
+		77FCB65803B642EFFEE7B17F /* Pods_Card_Tracker_using_Realm_and_TableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 531D275C3912D89A7D32A5F7 /* Pods_Card_Tracker_using_Realm_and_TableView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1026CFDB2093376500C429FA /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		10ADC684209065EF00A1BC5A /* Card Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10ADC687209065EF00A1BC5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10ADC689209065EF00A1BC5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10ADC68C209065EF00A1BC5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10ADC68E209065F000A1BC5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10ADC691209065F000A1BC5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10ADC693209065F000A1BC5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10ADC6992090706100A1BC5A /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		10ADC69B2090752600A1BC5A /* Amount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amount.swift; sourceTree = "<group>"; };
+		531D275C3912D89A7D32A5F7 /* Pods_Card_Tracker_using_Realm_and_TableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Card_Tracker_using_Realm_and_TableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38AC912504F104B9E7860E7 /* Pods-Card Tracker using Realm and TableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Card Tracker using Realm and TableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-Card Tracker using Realm and TableView/Pods-Card Tracker using Realm and TableView.release.xcconfig"; sourceTree = "<group>"; };
+		E2BCBE0AA3F5DE7263DBBF06 /* Pods-Card Tracker using Realm and TableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Card Tracker using Realm and TableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Card Tracker using Realm and TableView/Pods-Card Tracker using Realm and TableView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10ADC681209065EE00A1BC5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FCB65803B642EFFEE7B17F /* Pods_Card_Tracker_using_Realm_and_TableView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A80B09FB2C8FDEDAFD312E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				531D275C3912D89A7D32A5F7 /* Pods_Card_Tracker_using_Realm_and_TableView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1026CFD82093373C00C429FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				10ADC68B209065EF00A1BC5A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1026CFD92093374400C429FA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				10ADC689209065EF00A1BC5A /* ViewController.swift */,
+				10ADC6992090706100A1BC5A /* HistoryTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1026CFDA2093375600C429FA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				10ADC69B2090752600A1BC5A /* Amount.swift */,
+				1026CFDB2093376500C429FA /* History.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		10ADC67B209065EE00A1BC5A = {
+			isa = PBXGroup;
+			children = (
+				10ADC686209065EF00A1BC5A /* Card Tracker using Realm and TableView */,
+				10ADC685209065EF00A1BC5A /* Products */,
+				B6E0446C940213E767764428 /* Pods */,
+				0A80B09FB2C8FDEDAFD312E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10ADC685209065EF00A1BC5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10ADC684209065EF00A1BC5A /* Card Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10ADC686209065EF00A1BC5A /* Card Tracker using Realm and TableView */ = {
+			isa = PBXGroup;
+			children = (
+				10ADC687209065EF00A1BC5A /* AppDelegate.swift */,
+				1026CFD82093373C00C429FA /* View */,
+				1026CFD92093374400C429FA /* Controllers */,
+				1026CFDA2093375600C429FA /* Models */,
+				10ADC68E209065F000A1BC5A /* Assets.xcassets */,
+				10ADC690209065F000A1BC5A /* LaunchScreen.storyboard */,
+				10ADC693209065F000A1BC5A /* Info.plist */,
+			);
+			path = "Card Tracker using Realm and TableView";
+			sourceTree = "<group>";
+		};
+		B6E0446C940213E767764428 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2BCBE0AA3F5DE7263DBBF06 /* Pods-Card Tracker using Realm and TableView.debug.xcconfig */,
+				A38AC912504F104B9E7860E7 /* Pods-Card Tracker using Realm and TableView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10ADC683209065EE00A1BC5A /* Card Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10ADC696209065F000A1BC5A /* Build configuration list for PBXNativeTarget "Card Tracker" */;
+			buildPhases = (
+				9B77D3C23ED734BA4C71B029 /* [CP] Check Pods Manifest.lock */,
+				10ADC680209065EE00A1BC5A /* Sources */,
+				10ADC681209065EE00A1BC5A /* Frameworks */,
+				10ADC682209065EE00A1BC5A /* Resources */,
+				749DFB3BF5FC9B33E151E09D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Card Tracker";
+			productName = "Card Tracker using Realm and TableView";
+			productReference = 10ADC684209065EF00A1BC5A /* Card Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10ADC67C209065EE00A1BC5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Jae-Jun Shin";
+				TargetAttributes = {
+					10ADC683209065EE00A1BC5A = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 10ADC67F209065EE00A1BC5A /* Build configuration list for PBXProject "Card Tracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10ADC67B209065EE00A1BC5A;
+			productRefGroup = 10ADC685209065EF00A1BC5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10ADC683209065EE00A1BC5A /* Card Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10ADC682209065EE00A1BC5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10ADC692209065F000A1BC5A /* LaunchScreen.storyboard in Resources */,
+				10ADC68F209065F000A1BC5A /* Assets.xcassets in Resources */,
+				10ADC68D209065EF00A1BC5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		749DFB3BF5FC9B33E151E09D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Card Tracker using Realm and TableView/Pods-Card Tracker using Realm and TableView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Card Tracker using Realm and TableView/Pods-Card Tracker using Realm and TableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B77D3C23ED734BA4C71B029 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Card Tracker using Realm and TableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10ADC680209065EE00A1BC5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10ADC68A209065EF00A1BC5A /* ViewController.swift in Sources */,
+				10ADC688209065EF00A1BC5A /* AppDelegate.swift in Sources */,
+				10ADC69A2090706100A1BC5A /* HistoryTableViewController.swift in Sources */,
+				10ADC69C2090752600A1BC5A /* Amount.swift in Sources */,
+				1026CFDC2093376500C429FA /* History.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10ADC68B209065EF00A1BC5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10ADC68C209065EF00A1BC5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10ADC690209065F000A1BC5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10ADC691209065F000A1BC5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10ADC694209065F000A1BC5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10ADC695209065F000A1BC5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10ADC697209065F000A1BC5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2BCBE0AA3F5DE7263DBBF06 /* Pods-Card Tracker using Realm and TableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZ2HTNTHQP;
+				INFOPLIST_FILE = "Card Tracker using Realm and TableView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jayshit.Card-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10ADC698209065F000A1BC5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A38AC912504F104B9E7860E7 /* Pods-Card Tracker using Realm and TableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZ2HTNTHQP;
+				INFOPLIST_FILE = "Card Tracker using Realm and TableView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jayshit.Card-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10ADC67F209065EE00A1BC5A /* Build configuration list for PBXProject "Card Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10ADC694209065F000A1BC5A /* Debug */,
+				10ADC695209065F000A1BC5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10ADC696209065F000A1BC5A /* Build configuration list for PBXNativeTarget "Card Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10ADC697209065F000A1BC5A /* Debug */,
+				10ADC698209065F000A1BC5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10ADC67C209065EE00A1BC5A /* Project object */;
+}
