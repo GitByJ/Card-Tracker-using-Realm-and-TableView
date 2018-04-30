@@ -7,5 +7,6 @@ target 'Card Tracker using Realm and TableView' do
   # Pods for Card Tracker using Realm and TableView
 
 pod 'RealmSwift'
+pod 'SwipeCellKit'
 
 end

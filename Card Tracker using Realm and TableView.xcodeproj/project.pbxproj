@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1026CFDC2093376500C429FA /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1026CFDB2093376500C429FA /* History.swift */; };
 		10ADC688209065EF00A1BC5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ADC687209065EF00A1BC5A /* AppDelegate.swift */; };
 		10ADC68A209065EF00A1BC5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ADC689209065EF00A1BC5A /* ViewController.swift */; };
 		10ADC68D209065EF00A1BC5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10ADC68B209065EF00A1BC5A /* Main.storyboard */; };
@@ -19,8 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1026CFDB2093376500C429FA /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
-		10ADC684209065EF00A1BC5A /* Card Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10ADC684209065EF00A1BC5A /* Card Tracker using Realm and TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Tracker using Realm and TableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10ADC687209065EF00A1BC5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10ADC689209065EF00A1BC5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		10ADC68C209065EF00A1BC5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				10ADC69B2090752600A1BC5A /* Amount.swift */,
-				1026CFDB2093376500C429FA /* History.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -93,7 +90,7 @@
 		10ADC685209065EF00A1BC5A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				10ADC684209065EF00A1BC5A /* Card Tracker.app */,
+				10ADC684209065EF00A1BC5A /* Card Tracker using Realm and TableView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,9 +121,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		10ADC683209065EE00A1BC5A /* Card Tracker */ = {
+		10ADC683209065EE00A1BC5A /* Card Tracker using Realm and TableView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 10ADC696209065F000A1BC5A /* Build configuration list for PBXNativeTarget "Card Tracker" */;
+			buildConfigurationList = 10ADC696209065F000A1BC5A /* Build configuration list for PBXNativeTarget "Card Tracker using Realm and TableView" */;
 			buildPhases = (
 				9B77D3C23ED734BA4C71B029 /* [CP] Check Pods Manifest.lock */,
 				10ADC680209065EE00A1BC5A /* Sources */,
@@ -138,9 +135,9 @@
 			);
 			dependencies = (
 			);
-			name = "Card Tracker";
+			name = "Card Tracker using Realm and TableView";
 			productName = "Card Tracker using Realm and TableView";
-			productReference = 10ADC684209065EF00A1BC5A /* Card Tracker.app */;
+			productReference = 10ADC684209065EF00A1BC5A /* Card Tracker using Realm and TableView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -158,7 +155,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 10ADC67F209065EE00A1BC5A /* Build configuration list for PBXProject "Card Tracker" */;
+			buildConfigurationList = 10ADC67F209065EE00A1BC5A /* Build configuration list for PBXProject "Card Tracker using Realm and TableView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -171,7 +168,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				10ADC683209065EE00A1BC5A /* Card Tracker */,
+				10ADC683209065EE00A1BC5A /* Card Tracker using Realm and TableView */,
 			);
 		};
 /* End PBXProject section */
@@ -199,11 +196,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Card Tracker using Realm and TableView/Pods-Card Tracker using Realm and TableView-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -239,7 +238,6 @@
 				10ADC688209065EF00A1BC5A /* AppDelegate.swift in Sources */,
 				10ADC69A2090706100A1BC5A /* HistoryTableViewController.swift in Sources */,
 				10ADC69C2090752600A1BC5A /* Amount.swift in Sources */,
-				1026CFDC2093376500C429FA /* History.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +418,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		10ADC67F209065EE00A1BC5A /* Build configuration list for PBXProject "Card Tracker" */ = {
+		10ADC67F209065EE00A1BC5A /* Build configuration list for PBXProject "Card Tracker using Realm and TableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				10ADC694209065F000A1BC5A /* Debug */,
@@ -429,7 +427,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		10ADC696209065F000A1BC5A /* Build configuration list for PBXNativeTarget "Card Tracker" */ = {
+		10ADC696209065F000A1BC5A /* Build configuration list for PBXNativeTarget "Card Tracker using Realm and TableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				10ADC697209065F000A1BC5A /* Debug */,

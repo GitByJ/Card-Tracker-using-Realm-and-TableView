@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/jaejunshit/Downloads/jay&apos;s world/Card Tracker using Realm and TableView/Card Tracker.xcodeproj">
+      location = "group:Card Tracker using Realm and TableView.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
